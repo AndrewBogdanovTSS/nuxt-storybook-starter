@@ -1,6 +1,6 @@
 <template>
   <h1>Welcome Nuxt to Storybook</h1>
-  <NuxtWelcome />
+  <my-btn>Some text</my-btn>
 </template>
 
 <style>
