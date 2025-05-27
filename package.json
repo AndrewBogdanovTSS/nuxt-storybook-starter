@@ -25,11 +25,18 @@
     "@storybook/test": "8.6.12",
     "@storybook/vue3": "8.6.12",
     "npm-check-updates": "^18.0.1",
-    "storybook": "8.6.12"
+    "storybook": "8.6.12",
+    "msw": "^2.8.2",
+    "msw-storybook-addon": "^2.0.4"
   },
   "packageManager": "pnpm@10.11.0",
+  "msw": {
+    "workerDirectory": [
+      ".storybook/public"
+    ]
+  },
   "volta": {
-    "node": "24.1.0",
+    "node": "22.15.0",
     "pnpm": "10.11.0"
   }
 }
