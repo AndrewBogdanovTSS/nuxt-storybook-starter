@@ -3,7 +3,7 @@ import { resolve } from 'pathe'
 
 const config: StorybookConfig = {
   "stories": [
-    "../components/**/*.stories.ts"
+    "../**/components/**/*.stories.ts"
   ],
   "addons": [
     "@storybook/addon-docs",
