@@ -1,9 +1,9 @@
 import type { StorybookConfig } from '@storybook-vue/nuxt';
+import { resolve } from 'pathe'
 
 const config: StorybookConfig = {
   "stories": [
-    "../components/**/*.mdx",
-    "../components/**/*.stories.@(ts|mdx)"
+    "../components/**/*.stories.ts"
   ],
   "addons": [
     "@chromatic-com/storybook",
@@ -15,5 +15,5 @@ const config: StorybookConfig = {
     "name": "@storybook-vue/nuxt",
     "options": {}
   }
-};
-export default config;
+}
+export default config

@@ -2,5 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxtjs/storybook']
+  modules: ['@nuxt/eslint', '@nuxtjs/storybook'],
+  plugins: ['./plugin/viewport/index.ts']
 })
