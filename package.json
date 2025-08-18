@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.14.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,16 +14,15 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@nuxt/eslint": "1.8.0",
+    "@nuxt/eslint": "1.9.0",
     "@vueuse/core": "^13.6.0",
     "eslint": "^9.33.0",
     "nuxt": "^4.0.3",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "pnpm@10.14.0",
   "devDependencies": {
-    "@nuxtjs/storybook": "8.4.1",
+    "@nuxtjs/storybook": "9.0.0",
     "@storybook/addon-a11y": "9.1.2",
     "@storybook/addon-docs": "9.1.2",
     "@storybook/addon-vitest": "9.1.2",
@@ -38,7 +38,7 @@
     ]
   },
   "volta": {
-    "node": "22.15.0",
+    "node": "22.18.0",
     "pnpm": "10.14.0"
   }
 }
