@@ -26,6 +26,7 @@
     "@storybook/addon-a11y": "9.1.4",
     "@storybook/addon-docs": "9.1.4",
     "@storybook/addon-vitest": "9.1.4",
+    "@typescript-eslint/parser": "^8.42.0",
     "eslint-plugin-storybook": "9.1.4",
     "msw": "^2.11.1",
     "msw-storybook-addon": "^2.0.5",
@@ -38,7 +39,7 @@
     ]
   },
   "volta": {
-    "node": "22.18.0",
-    "pnpm": "10.14.0"
+    "node": "22.19.0",
+    "pnpm": "10.15.1"
   }
 }

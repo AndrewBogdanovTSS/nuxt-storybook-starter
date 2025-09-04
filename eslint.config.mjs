@@ -1,9 +1,17 @@
-// For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
-import storybook from "eslint-plugin-storybook";
-
-// @ts-check
+import storybook from 'eslint-plugin-storybook'
 import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(
-  // Your custom configs here
+    ...storybook.configs['flat/recommended'],
+    // Handle TypeScript files in .storybook directory
+    {
+        files: ['.storybook/**/*.ts'],
+        languageOptions: {
+            parser: (await import('@typescript-eslint/parser')).default,
+            parserOptions: {
+                ecmaVersion: 'latest',
+                sourceType: 'module'
+            }
+        }
+    }
 )

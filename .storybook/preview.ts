@@ -1,4 +1,4 @@
-import type { Preview } from '@storybook-vue/nuxt'
+import type { Preview } from '@nuxtjs/storybook'
 import { initialize, mswDecorator } from 'msw-storybook-addon'
 import { handlers } from './msw/handlers'
 

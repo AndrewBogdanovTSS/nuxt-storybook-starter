@@ -1,7 +1,7 @@
-import type { StorybookConfig } from '@storybook-vue/nuxt';
-import { resolve } from 'pathe'
+import type { StorybookConfig } from '@nuxtjs/storybook'
 
 const config: StorybookConfig = {
+  staticDirs: ['./public'],
   "stories": [
     "../**/components/**/*.stories.ts"
   ],
